@@ -1,0 +1,33 @@
+		body {
+			font-family: sans-serif;
+			margin: 0;
+		}
+		.section {
+			padding: 2rem;
+			height: 30rem;
+			position: relative;
+			text-align: center;
+            height: 10px; //настройка высоты прокрутки
+		}
+		.section:nth-child(2n+2) {
+			background-color: #eee;
+		}
+		.section .label {
+			position: absolute;
+			padding: .375rem;
+			box-sizing: border-box;
+			color: #999;
+			border: 1px solid #999;
+			top: 0;
+			left: 2rem;
+			background-color: #fff;
+			height: 2rem;
+		}
+		*[class^="revealator"] {
+			height: 15rem;
+			width: 20rem;
+			border: 1px solid #999;
+			background-color: rgba(0,0,0,.1);
+			margin: 0 auto;
+			display: inline-block;
+		}
